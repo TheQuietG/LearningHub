@@ -100,3 +100,35 @@ git add students.sql
 git push main origin
 git checkout main
 git add .
+git status
+git -m "Building a Student Database:Part 1"
+git commit -m "Bulding a Student Database: Part 1"
+__vsc_prompt_cmd_original
+git push origin main
+__vsc_prompt_cmd_original
+git push origin main
+git pull
+pwd
+git status
+git
+git global
+git --global
+git status
+git add students.sql insert_data.sh
+git push
+git push -u origin main
+git pull
+git remote set-url origin https://github.com/TheQuietG/LearningHub.git
+git branch -M main
+git push -u origin main
+git push --help
+git pull origin mian
+git pull origin main
+git config pull.ff
+git pull origin main
+git config pull.rebase false
+git pull origin main
+git pull origin main --allow-unrelated-histories
+git push origin main
+ls --color=auto
+git add .
