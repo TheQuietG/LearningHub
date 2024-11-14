@@ -227,3 +227,24 @@ psql --username=freecodecamp --dbname=students
 psql --username=freecodecamp --dbname=students
 ./student_info.sh
 ./student_info.sh
+ls --color=auto
+mkdir PQSLFreeCodeA
+mv student_info.sh students.sql PQSLFreeCodeA/
+ls --color=auto
+mv PQSLFreeCodeA/ PSQLPart2
+ls --color=auto
+git status
+git add PSQLPart2/
+git commit -m "Building a Student Database: Part 2 "
+git push origin main
+git push --set-upstream origin TheQuietG/LearningHub
+git remote set-url origin https://github.com/TheQuietG/LearningHub.git
+git push --set-upstream origin TheQuietG/LearningHub
+git status
+ls --color=auto
+git add PSQLPart2/
+git commit -m "A ver si ahora funciona"
+git push
+git pull origin main --allow-unrelated-histories
+__vsc_prompt_cmd_original
+git add .
